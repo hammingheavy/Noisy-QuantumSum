@@ -536,7 +536,7 @@ def fidelity_between_kets(ket1, ket2):
     return density_matrix_fidelity(density_matrix1, density_matrix2)
 
 
-def noisy_decomposed_quantum_sum(m, k, alpha, beta):
+def noisy_decomposed_quantum_sum_fidelity(m, k, alpha, beta):
     wires_m, wires_k, wires_solution = generate_wires(m, k) 
 
     dev = qml.device("default.qubit", wires=wires_m + wires_k + wires_solution, shots=1)
