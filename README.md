@@ -1,4 +1,4 @@
-# qosf mentorship task
+# Noisy-QuantumSum
 
 In this repo I attempt a solution for Task 2: Noise, Noise, and More Noise.
 
