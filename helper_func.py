@@ -1,3 +1,5 @@
+# Contains all the functions from notebooks Part_1, Decompositions, Part_2 and Part_3
+
 import pennylane as qml
 from pennylane import numpy as np
 import copy
